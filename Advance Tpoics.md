@@ -47,6 +47,24 @@ When to use: When we need to pass a method as a parameter, we use delegates.
 
 4-> Events:
 An event is used to notify other objects when something happens/ when a specific action occurs.
+Every event has three parts.
+1. Publisher
+The object that raises the event.
+Example:
+Button
+or
+Order
+2. Event
+The notification itself.
+Button Clicked
+Order Placed
+File Uploaded
+3. Subscriber
+The object that listens for the event.
+Examples
+Email Service
+SMS Service
+Inventory
 
 Difference between events and delegates:
 Delegate is a variable that stores reference to a method and an event is a notification mechanism that
@@ -63,5 +81,5 @@ public int square(int x){
 we can write this:
 x-> ( x * x)
 
-5-> LINQ (Language integrated query): Use to 
+5-> LINQ (Language integrated query): Feature in C# that are Used to query, sort, filter or manipulate data from different data sources like a collection or a database etc.
 */
